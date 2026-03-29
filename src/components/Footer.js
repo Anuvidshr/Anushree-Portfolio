@@ -31,12 +31,12 @@ export default function Footer() {
             LinkedIn
           </a>
           <a
-            href="https://instagram.com/anushree_janoriya"
+            href="https://twitter.com/anushree_janoriya"
             target="_blank"
             rel="noreferrer"
             className="text-textmuted hover:text-accent transition-colors"
           >
-            Instagram
+            Twitter
           </a>
         </div>
         <p className="text-xs text-textdim font-mono">

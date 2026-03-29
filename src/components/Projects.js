@@ -85,7 +85,7 @@ export default function Projects() {
         <div ref={ref} className={`fade-up ${inView ? 'visible' : ''} mb-16`}>
           <h2 className="font-mono font-bold text-textprimary mb-6"
             style={{ fontSize: 'clamp(38px, 5vw, 58px)', letterSpacing: '-0.02em' }}>
-            projects
+            Projects
           </h2>
 
           <p className="text-textsecondary text-base leading-[1.85] max-w-3xl">

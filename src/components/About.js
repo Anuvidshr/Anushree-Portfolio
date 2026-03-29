@@ -2,10 +2,6 @@ import React from 'react';
 import { useInView } from '../App';
 import resumePdf from '../Picspdf/Anushree 8lpa.pdf';
 
-const techStack = [
-  'HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Express', 
-  'MongoDB', 'MySQL', 'GitHub', 'TypeScript', 'AWS', 'Java'
-];
 
 export default function About() {
   const [ref, inView] = useInView();
@@ -14,10 +10,10 @@ export default function About() {
     <section id="about" className="py-32 bg-bg">
       <div className="max-w-[1180px] mx-auto px-12">
         <div ref={ref} className={`fade-up ${inView ? 'visible' : ''}`}>
-
+           
           <h2 className="font-mono font-bold text-textprimary mb-12"
             style={{ fontSize: 'clamp(38px, 5vw, 58px)', letterSpacing: '-0.02em' }}>
-            about
+            About
           </h2>
 
           <div className="max-w-3xl">
@@ -29,24 +25,12 @@ export default function About() {
             </p>
 
             <p className="text-textsecondary text-base leading-[1.85] mb-5">
-              I started learning web development during my college years, through online courses and hands-on projects 
-              to learn the basics and enhance my skills. I have experience in developing APIs, database management with MongoDB 
-              and MySQL, and working with modern tools like Git, GitHub, Postman, and AWS.
+              I have built multiple hands-on projects to strengthen my development skills. I have experience in developing APIs, database management with MongoDB and MySQL, and a strong foundation in Data Structures and Algorithms. I also work with tools like Git, GitHub, Postman, and AWS.
             </p>
 
             <p className="text-textsecondary text-base leading-[1.85] mb-10">
-              I am always looking for new challenges and opportunities to apply and expand my knowledge. 
-              Here are some technologies I am familiar with:
+              I am always looking for new challenges and opportunities to apply and expand my knowledge. I am passionate about learning new technologies and improving my skills to become a better developer.
             </p>
-
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mb-10">
-              {techStack.map(tech => (
-                <div key={tech} className="flex items-center gap-2.5 text-textsecondary text-sm">
-                  <span className="text-accent text-lg">➤</span>
-                  <span>{tech}</span>
-                </div>
-              ))}
-            </div>
 
             <p className="text-textsecondary text-base leading-[1.85] mb-8">
               Want to know more about my journey? You can download my CV by clicking the button below.

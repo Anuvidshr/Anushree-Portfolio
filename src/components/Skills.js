@@ -1,27 +1,39 @@
 import React from 'react';
 import { useInView } from '../App';
 
-const skills = [
+const techStack = [
+  'HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Express.js', 
+  'REST APIs', 'DBMS', 'MongoDB', 'MySQL', 'GitHub', 'TypeScript', 'AWS', 'Java', 'OOPS', 'Data Structures & Algorithms'
+];
+
+const softSkills = [
+  [
   {
     num: '01',
-    title: 'non-stop learning',
-    desc: 'Technology never stops updating, that\'s why those who work with technology should not stop updating themselves either.'
+    title: 'Learning Agility',
+    desc: 'Continuously learning and adapting to new technologies to stay relevant in a fast-evolving environment.'
   },
   {
     num: '02',
-    title: 'communicative',
-    desc: 'No matter your profession, communication is always a need in any field.'
+    title: 'Time Management',
+    desc: 'Efficiently prioritizing tasks and managing time to meet deadlines without compromising quality.'
   },
   {
     num: '03',
-    title: 'open-minded',
-    desc: 'When you work for people, you need to accept new ideas from clients or team members and be able to work on them.'
+    title: 'Team Collaboration',
+    desc: 'Working effectively with team members to achieve shared goals and deliver successful outcomes.'
   },
   {
     num: '04',
-    title: 'problem solver',
-    desc: 'Every project comes with challenges. Being able to analyze and solve problems efficiently is crucial.'
+    title: 'Effective Communication',
+    desc: 'Clearly expressing ideas and understanding requirements to ensure smooth collaboration.'
+  },
+  {
+    num: '05',
+    title: 'Problem Solving',
+    desc: 'Analyzing challenges logically and implementing efficient solutions in real-world scenarios.'
   }
+]
 ];
 
 function SkillCard({ skill, index }) {
@@ -52,27 +64,46 @@ function SkillCard({ skill, index }) {
 
 export default function Skills() {
   const [ref, inView] = useInView();
+  const [ref2, inView2] = useInView();
 
   return (
     <section id="skills" className="py-32 bg-surface">
       <div className="max-w-[1180px] mx-auto px-12">
 
-        <div ref={ref} className={`fade-up ${inView ? 'visible' : ''} mb-16`}>
+        {/* Tech Skills Section */}
+        <div ref={ref} className={`fade-up ${inView ? 'visible' : ''} mb-20`}>
           <h2 className="font-mono font-bold text-textprimary mb-6"
             style={{ fontSize: 'clamp(38px, 5vw, 58px)', letterSpacing: '-0.02em' }}>
-            skills
+            Tech Skills
           </h2>
 
-          <p className="text-textsecondary text-base leading-[1.85] max-w-3xl">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 max-w-3xl">
+            {techStack.map(tech => (
+              <div key={tech} className="flex items-center gap-2.5 text-textsecondary text-sm bg-bg border border-border p-4 rounded-sm hover:border-accent transition-all">
+                <span className="text-accent text-lg">➤</span>
+                <span>{tech}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Soft Skills Section */}
+        <div ref={ref2} className={`fade-up ${inView2 ? 'visible' : ''} mb-16`}>
+          <h2 className="font-mono font-bold text-textprimary mb-6"
+            style={{ fontSize: 'clamp(38px, 5vw, 58px)', letterSpacing: '-0.02em' }}>
+            Soft Skills
+          </h2>
+
+          <p className="text-textsecondary text-base leading-[1.85] max-w-3xl mb-10">
             Since the beginning of my journey as a developer, I've improved my soft skills,
             always seeking to be a better professional.
           </p>
-        </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {skills.map((skill, i) => (
-            <SkillCard key={skill.num} skill={skill} index={i} />
-          ))}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {softSkills[0].map((skill, i) => (
+              <SkillCard key={skill.num} skill={skill} index={i} />
+            ))}
+          </div>
         </div>
 
       </div>
