@@ -40,17 +40,21 @@ function Cursor() {
   );
 }
 
-export function useInView(options = {}) {
+export function useInView(options) {
   const ref = useRef(null);
   const [inView, setInView] = useState(false);
+  const threshold = options?.threshold ?? 0.12;
+  const root = options?.root ?? null;
+  const rootMargin = options?.rootMargin ?? '0px';
+
   useEffect(() => {
     const obs = new IntersectionObserver(
       ([e]) => { if (e.isIntersecting) { setInView(true); obs.disconnect(); } },
-      { threshold: 0.12, ...options }
+      { threshold, root, rootMargin }
     );
     if (ref.current) obs.observe(ref.current);
     return () => obs.disconnect();
-  }, []);
+  }, [threshold, root, rootMargin]);
   return [ref, inView];
 }
 

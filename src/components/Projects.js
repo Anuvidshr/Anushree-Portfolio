@@ -1,38 +1,22 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useInView } from '../App';
 
 const projects = [
   { 
     id: 1, 
-    title: 'Herbário', 
-    desc: 'A mobile application focused on documenting herbs, including technical sheets, traditional uses, and spiritual practices associated with plants.',
-    tags: ['React Native', 'MongoDB', 'Node.js'],
-    link: '#', 
-    github: '#' 
+    title: 'FanMeet-Connecting Fans across the world', 
+    desc: 'Full-stack social networking platform connecting global fandoms with seamless collaboration and networking. Features include user connection requests, profile management, interest-based discussion forums.',
+    tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT Authentication', 'Socket.io', 'REST APIs'],
+    link: 'https://fanmeet.vercel.app/', 
+    github: 'https://github.com/Anuvidshr/FanMeet-Backend' 
   },
   { 
     id: 2, 
-    title: 'FanMeet', 
-    desc: 'Full-stack social networking platform connecting global fandoms with seamless collaboration and networking. Features include user connection requests, profile management, interest-based discussion forums.',
-    tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
-    link: '#', 
-    github: '#' 
-  },
-  { 
-    id: 3, 
-    title: 'MyShop', 
+    title: 'MyShop - Home Services platform', 
     desc: 'On-demand home services platform providing plumbing, cleaning, and electrical services with advanced search and filter functionality.',
-    tags: ['HTML', 'Tailwind CSS', 'JavaScript'],
-    link: '#', 
-    github: '#' 
-  },
-  { 
-    id: 4, 
-    title: 'Pokédex', 
-    desc: 'A simple and easy-to-use Pokédex. It has the option to search for pokémons by name, habitat or type; in addition to the three combined.',
-    tags: ['React', 'API Integration'],
-    link: '#', 
-    github: '#' 
+    tags: ['HTML', 'Tailwind CSS', 'JavaScript', 'React.js'],
+    link: 'https://myshop-two-gold.vercel.app/', 
+    github: 'https://github.com/Anuvidshr/Myshop' 
   },
 ];
 
@@ -99,7 +83,7 @@ export default function Projects() {
         </div>
 
         <div className="flex justify-center mt-12">
-          <a href="https://github.com/Anuridshi" target="_blank" rel="noreferrer"
+          <a href="https://github.com/AnuVidshr" target="_blank" rel="noreferrer"
             className="border border-border text-textsecondary font-mono text-[11px] uppercase tracking-widest px-8 py-3 rounded-sm hover:border-accent hover:text-accent hover:-translate-y-0.5 transition-all">
             View All on GitHub →
           </a>
