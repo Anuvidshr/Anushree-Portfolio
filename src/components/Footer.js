@@ -11,11 +11,11 @@ export default function Footer() {
           <span className="text-accent">&lt;</span>AJ<span className="text-accent">/&gt;</span>
         </button>
         <p className="text-sm text-textmuted mb-6">
-          Built with React & Tailwind
+          Designed and developed by Anushree 🕊️
         </p>
         <div className="flex gap-8 justify-center mb-6">
           <a
-            href="https://github.com/Anuridshi"
+            href="https://github.com/Anuvidshr"
             target="_blank"
             rel="noreferrer"
             className="text-textmuted hover:text-accent transition-colors"
@@ -31,7 +31,7 @@ export default function Footer() {
             LinkedIn
           </a>
           <a
-            href="https://twitter.com/anushree_janoriya"
+            href="https://twitter.com/AnushreeJanori1"
             target="_blank"
             rel="noreferrer"
             className="text-textmuted hover:text-accent transition-colors"
