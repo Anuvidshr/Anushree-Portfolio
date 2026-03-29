@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 /* Custom cursor */
+html, body, #root {
+  min-height: 100%;
+  overflow-x: hidden;
+  background: #070708;
+}
+
 body {
   cursor: none;
   -webkit-font-smoothing: antialiased;

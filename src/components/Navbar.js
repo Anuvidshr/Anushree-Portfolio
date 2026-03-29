@@ -36,7 +36,7 @@ export default function Navbar() {
         {/* Logo */}
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="font-mono text-base text-textprimary hover:text-accent transition-colors ml-[-96px]"
+          className="font-mono text-base text-textprimary hover:text-accent transition-colors ml-0 md:ml-[-96px]"
         >
           <span className="text-accent">&lt;</span>AJ<span className="text-accent">/&gt;</span>
         </button>

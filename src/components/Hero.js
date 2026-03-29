@@ -75,7 +75,7 @@ export default function Hero() {
         <div className={`transition-all duration-700 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-12">
             <div className="text-left md:max-w-[760px]">
-              <h1 className={`font-semibold not-italic text-textprimary mb-8 whitespace-nowrap transition-all duration-700 ${loaded ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-16'}`}
+              <h1 className={`font-semibold not-italic text-textprimary mb-8 whitespace-normal md:whitespace-nowrap leading-tight transition-all duration-700 ${loaded ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-16'}`}
                 style={{ fontSize: 'clamp(48px, 7vw, 86px)', letterSpacing: '-0.05em', fontFamily: 'Georgia, serif' }}>
                 Anushree Janoriya
               </h1>
