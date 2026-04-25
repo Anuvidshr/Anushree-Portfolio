@@ -89,3 +89,16 @@ body::after {
   color: #44445a;
   font-family: 'IBM Plex Mono', monospace;
 }
+
+.hero-social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0 0 6px rgba(91, 141, 238, 0.35));
+  transition: color 0.3s ease, filter 0.3s ease, transform 0.3s ease;
+}
+
+.hero-social-link:hover {
+  filter: drop-shadow(0 0 10px rgba(91, 141, 238, 0.75)) drop-shadow(0 0 18px rgba(155, 127, 232, 0.55));
+  transform: translateY(-1px);
+}

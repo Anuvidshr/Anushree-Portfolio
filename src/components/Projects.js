@@ -18,6 +18,14 @@ const projects = [
     link: 'https://myshop-two-gold.vercel.app/', 
     github: 'https://github.com/Anuvidshr/Myshop' 
   },
+  { 
+    id: 3, 
+    title: 'Ai Job Resume Analyzer', 
+    desc: 'An AI-powered web application that analyzes resumes against job descriptions, providing personalized feedback, keyword optimization, and match scoring to improve ATS compatibility and hiring chances.',
+    tags: ['HTML', 'React.js', 'JavaScript', 'Tailwind CSS', 'AI APIs'],
+    link: 'https://ai-job-frontend-rose.vercel.app/', 
+    github: 'https://github.com/Anuvidshr/Ai-job-analyser' 
+  },
 ];
 
 function ProjectCard({ p, index }) {
