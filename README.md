@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+Hi 👋 I'm Anushree Janoriya
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Final-year IT student | Full-Stack Developer | Backend Enthusiast  
+💡 Passionate about building scalable systems & AI-powered applications  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 👩‍💻 About Me
+- 🎓 B.Tech in Information Technology (2022–2026)
+- 💻 Strong in **DSA, OOPs, DBMS**
+- ⚙️ Skilled in building **full-stack(MERN) + backend systems**
+- 🤖 Exploring **Generative AI & LLM-based applications**
+- 🎯 Goal: Secure high-impact SDE role
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Languages & Databases**
+- JavaScript, Java, SQL  
+- MongoDB, MySQL  
 
-### `npm test`
+**Frontend**
+- HTML, CSS, Tailwind CSS  
+- React.js  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Backend**
+- Node.js, Express.js  
+- REST APIs, LLM API Integration  
 
-### `npm run build`
+**Tools & Platforms**
+- AWS (EC2, S3)  
+- Git & GitHub  
+- Postman, VS Code  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 💼 Experience
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Backend Development Intern
+- Built scalable APIs using **Node.js & Express**
+- Improved performance by **25%**
+- Designed MongoDB schemas & CRUD operations
+- Ensured **100% API reliability** via Postman testing
+- Collaborated using GitHub for version control
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Projects
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🌐 FanMeet (Full-Stack Social Platform)
+- React + Node + MongoDB based platform
+- Features: user connections, forums, profiles
+- Integrated **AI chatbot (Gemini API)**
+- Focus on scalability & real-time interaction
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🛒 MyShop (Home Services Platform)
+- Responsive frontend using **HTML, Tailwind, JS**
+- Dynamic service listing + filtering
+- Smooth booking & payment flow
+- Optimized UX for better navigation
+- link : https://myshop-two-gold.vercel.app
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🤖 AI Job Resume Analyzer
+- AI-based resume analysis matching skills with job descriptions
+- Generates ATS score with improvement suggestions
+- Built using React.js, Tailwind CSS, JavaScript
+- Improves job application success with smart insights
+- link : https://ai-job-frontend-rose.vercel.app
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🏆 Achievements
+- 🥇 NPTEL Elite Certification in Java  
+- 🌐 Cisco Networking & Cybersecurity Internship  
+- 📬 Postman API Fundamentals Student Expert
+- 🔦 Leading team formed for Hackathons or academic projects
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📫 Connect With Me
+- 💼 LinkedIn: https://linkedin.com/in/anushree-janoriya  
+- 💻 GitHub: https://github.com/Anuvidshr  
+- 📧 Email: janoriyaanushree@gmail.com
+- 👤 portfolio : https://anushreewits.me
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Glimpse of my life
+I enjoy building things that solve real-world problems and constantly push myself to learn new technologies. And i love living my life to its fullest along with accelerating myself towards a great future.
