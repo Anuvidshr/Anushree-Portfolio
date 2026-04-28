@@ -1,6 +1,6 @@
 import React from 'react';
 import { useInView } from '../App';
-import resumePdf from '../Picspdf/Anushree 8lpa.pdf';
+import resumePdf from '../Picspdf/Anushree cv.pdf';
 
 
 export default function About() {
